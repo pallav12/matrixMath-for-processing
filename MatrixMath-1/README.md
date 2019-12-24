@@ -14,7 +14,7 @@ By default the following locations are used for your sketchbook folder:
   * For Mac users, the sketchbook folder is located inside `~/Documents/Processing` 
   * For Windows users, the sketchbook folder is located inside `My Documents/Processing`
 
-Download MatrixMath from http://github.com/pallav12/processing-library-template
+Download MatrixMath from https://github.com/pallav12/matrixMath-for-processing/releases/download/latest/MatrixMath-1.zip
 
 Unzip and copy the contributed Library's folder into the `libraries` folder in the Processing sketchbook. You will need to create this `libraries` folder if it does not exist.
 
