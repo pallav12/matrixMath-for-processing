@@ -8,7 +8,7 @@ name = Pallav.Matrix
 authors = [Pallav dubey](https://github.com/pallav12/)
 
 # A web page for your Library, NOT a direct link to where to download it.
-url = http://github.com/pallav12/processing-library-template
+url = http://github.com/pallav12/matrixMath-for-processing
 
 # The category (or categories) of your Library, must be from the following list:
 #   "3D"            "Animation"     "Compilations"      "Data"          
