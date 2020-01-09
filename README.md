@@ -1,48 +1,37 @@
 ## How to install MatrixMath
 
-You can install Rainbow eiteher from contribution manager or install it manually
+### Install with the Contribution Manager
 
-for detail's check [How to install contributed library](https://github.com/processing/processing/wiki/How-to-Install-a-Contributed-Library)
+Add contributed Libraries by selecting the menu item _Sketch_ → _Import Library..._ → _Add Library..._ This will open the Contribution Manager, where you can browse for MatrixMath, or any other Library you want to install.
 
-### How to use
-import Rainbow either from contribution mangager or manual installation
-if you are able to write 
-~~~
-import Rainbow.*;
-~~~
-without any error then you are good to go.
+Not all available Libraries have been converted to show up in this menu. If a Library isn't there, it will need to be installed manually by following the instructions below.
 
-Next initialize any Rainbow class in setup(), pass PApplet (this) as arument in constructor.
-For MengerSponge
-~~~
-MengerSponge mengerSponge;
-void setup(){
-  size(600,600,P3D);
-  mengerSponge=new MengerSponge(this);
-}
-~~~
-Now to run the actual MengerSponge Animation
-~~~
-void draw(){
-  mengerSponge.draw(); 
-}
-~~~
-Output
+### Manual Install
 
-<img src="https://i.ibb.co/ZL3DKKJ/Screenshot-103.png" width="300dp" height="300dp"/>
+Contributed Libraries may be downloaded separately and manually placed within the `libraries` folder of your Processing sketchbook. To find (and change) the Processing sketchbook location on your computer, open the Preferences window from the Processing application (PDE) and look for the "Sketchbook location" item at the top.
 
-You'll notice you still can't click on cube that's because
-If the animation involves any events like mouseClicked(), MousePressed() etc you have to add corresponding events.
+By default the following locations are used for your sketchbook folder: 
+  * For Mac users, the sketchbook folder is located inside `~/Documents/Processing` 
+  * For Windows users, the sketchbook folder is located inside `My Documents/Processing`
 
-~~~
-void mousePressed(){
-  mengerSponge.mousePressed();
-}
-~~~
-that's it.
+Download MatrixMath from https://github.com/pallav12/matrixMath-for-processing/releases/download/latest/MatrixMath.zip
 
-<img src="https://i.ibb.co/tYHngNN/Screenshot-edited-104.png" width ="300dp" height="300dp"/>
+Unzip and copy the contributed Library's folder into the `libraries` folder in the Processing sketchbook. You will need to create this `libraries` folder if it does not exist.
 
+The folder structure for Library MatrixMath should be as follows:
+
+```
+Processing
+  libraries
+    MatrixMath
+      examples
+      library
+        MatrixMath.jar
+      reference
+      src
+```
+             
+Some folders like `examples` or `src` might be missing. After Library MatrixMath has been successfully installed, restart the Processing application.
 
 ### Troubleshooting
 
